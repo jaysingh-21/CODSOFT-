@@ -55,8 +55,10 @@ int main(){
             cin>> num1;
             cout<<"Enter second number: ";
             cin>> num2;
-            if (num2==0)
+            if (num2==0){
                 cout <<"The is not divisible by Zero"<< endl;
+                break;
+            }
             div=num1 / num2;
             cout<< "The quotient is "<< div << endl;
             break;
