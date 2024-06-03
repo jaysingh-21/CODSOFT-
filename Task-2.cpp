@@ -13,8 +13,6 @@ int main(){
     cout<<"2. Subtraction" << endl;
     cout<<"3. Multiplication" << endl;
     cout<<"4. Division" << endl;
-    cout<<"5. Square" << endl;
-    cout<<"6. Factorial" << endl;
 
     cout<<"\n Enter your choice: ";
     cin>>choice;
@@ -61,28 +59,7 @@ int main(){
             }
             div=num1 / num2;
             cout<< "The quotient is "<< div << endl;
-            break;
-   
-        case 5:
-            cout <<"Enter the number : ";
-            cin>> num1;
-            num2 = num1 * num1 ;
-            cout << "The square of "<< num1 <<" is " << num2;
-
-            break;
-
-        case 6:
-            num2 = 1;
-            cout <<"Enter the number : ";
-            cin>> num1;
-            while (num1>0){
-                num2 =num2 * num1;
-                num1-=1;
-            } 
-            cout << "The factorial is " << num2;
-            break;
-
-        
+            break;       
 
         default:
             cout<< "Ivalid choice" ;
